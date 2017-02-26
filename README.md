@@ -1,2 +1,2 @@
-# madlabs
-Mat and Danny's new fantasmagorical website
+# Madlabs
+Mat and Danny's new fantasmagorical website.
