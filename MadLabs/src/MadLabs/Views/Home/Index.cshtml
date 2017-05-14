@@ -2,6 +2,47 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div id="Placeholder">
-    <a href="https://www.youtube.com/watch?v=CDCfnh_CmU8">UNDER CONSTRUCTION, CHECK THIS OUT THO"</a>
+<style>
+    .bg-1 {
+        background-color: #003366; /* Blue */
+        color: #ffffff;
+    }
+    .bg-2 {
+        background-color: #CCCCCC; /* Grey */
+        color: #ffffff;
+    }
+    .bg-3 {
+        background-color: #CCCC99; /* Beige */
+        color: #ffffff;
+    }
+    body, html, .section{
+        height: 100%;
+    }
+    .container-fluid{
+        padding-right: 0; /*15px in bootstrap.css*/
+        padding-left: 0;  /*idem*/
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .top{
+        height: 80%;
+    }
+    .bottom{
+        height: 20%;
+    }
+</style>
+
+
+<div class="container-fluid top">
+    <div class="col-sm-6 bg-1 text-center section">
+        <p>Projects</p>
+    </div>
+    <div class="col-sm-6 bg-2 text-center section">
+        <p>Tutorials</p>
+    </div>
+</div>
+<div class="container-fluid bottom">
+    <div class="col-sm-12 bg-3 text-center section">
+        <a href="https://www.youtube.com/watch?v=CDCfnh_CmU8">Contact</a>
+    </div>
 </div>
