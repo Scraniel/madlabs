@@ -1,6 +1,5 @@
 ﻿body {
     padding-top: 50px;
-    padding-bottom: 20px;
 }
 
 /* Wrapping element */
@@ -35,4 +34,27 @@ textarea {
   .carousel-caption {
     display: none
   }
+}
+
+.bg-1 {
+background-color: #003366; /* Blue */
+color: #ffffff;
+}
+.bg-2 {
+    background-color: #CCCCCC; /* Grey */
+    color: #ffffff;
+}
+.bg-3 {
+    background-color: #CCCC99; /* Beige */
+    color: #ffffff;
+}
+    
+body, html, .container-fluid, .section{
+    height: 100%;
+}
+.top{
+    height: 80%;
+}
+.bottom{
+    height: 20%;
 }
